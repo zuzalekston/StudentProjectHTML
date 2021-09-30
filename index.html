@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+	<html lang="pl">
+		<head>
+			<meta charset="UTF-8"/>
+			<meta name="description" content="Jedyny taki klub tenisowy w Bukownie"/>
+			<meta name="keywords" content="tenis; bukowno; prince"/>
+			<meta name="viewport" content="width=device-width,initial-scale=1.0">
+			<title> Strona główna | Prince Bukowno  </title>
+			<link rel="stylesheet" href="tenis.css" type="text/css"/>
+			<link href="https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei|Spicy+Rice|Playfair+Display+SC|Handlee|Merienda|Bangers" rel="stylesheet">
+			<link rel="shortcut icon" href="ikona.png">
+			<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+			<link rel="stylesheet" href="css/blueimp-gallery.min.css">
+			<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+			<script type="text/javascript" src="script.js"></script>
+		</head>
+			
+			
+		<body>
+			<div class="wrapper">
+				<header>
+					<div class="logo"> 
+				
+					<a href="index.html">Tenisowe Towarzystwo Sympatyków Prince'a <br/>w Bukownie</a></div> 
+				</header>
+				<div class="nav">
+					<ul>
+						<li><a href="index.html">Strona główna</a></li><li><a href="aboutus.html">O nas</a></li><li><a href="events.html">Wydarzenia</a></li><li><a href="activities.html">Zajęcia</a></li><li><a href="joinus.html">Dołącz do nas</a></li><li><a href="kontakt.html">Kontakt</a></li>
+						
+					</ul>
+				</div>
+					
+				<article>
+					
+							<!-- The Gallery as lightbox dialog, should be a child element of the document body -->
+					<div id="blueimp-gallery-carousel" class="blueimp-gallery blueimp-gallery-carousel">
+						<div class="slides"></div>
+						<h3 class="title">Tenis</h3>
+						<a class="prev">‹</a>
+						<a class="next">›</a>
+						<a class="close">×</a>
+						<a class="play-pause"></a>
+						<ol class="indicator"></ol>
+					</div>
+					<script src="js/blueimp-gallery.min.js"></script>
+					<div id="links">
+						<a href="people1.jpg" title="Osoby z pucharami">
+						
+						</a>
+						<a href="people2.jpg" title="Uczestnicy turnieju">
+						
+						</a>
+						<a href="people3.jpg" title="Dzieciaki na korcie">
+					
+						</a>
+					</div>
+			
+					<script>
+						blueimp.Gallery(
+							document.getElementById('links').getElementsByTagName('a'),
+							{
+								container: '#blueimp-gallery-carousel',
+								carousel: true
+							}
+						);
+					</script>
+					<button id="topBtn"><i class="fas fa-angle-up"></i></button>
+				<div id="first">	
+					<div class="one">
+							<p class="head"><b>O NAS</b></p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque, velit eget porta fringilla, massa mi consectetur eros, eget aliquet lectus risus non elit. Aenean sagittis odio eu nisl viverra, non efficitur odio tempus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Integer vestibulum vel tellus at convallis. Cras a ultrices lorem, nec bibendum massa. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In vel vehicula nisi. Fusce dui sapien, pretium in mi nec, pretium interdum turpis. Donec hendrerit sit amet sem pulvinar blandit. Maecenas ullamcorper dui non lectus finibus, sit amet fermentum libero aliquet.</p>
+					</div>
+					<div class="two">
+						<div class="block">
+							<p><a href="aboutus.html">Poznaj nas lepiej...</a></p>
+						</div>	
+					</div>
+					
+					<div class="four">
+							<p class="events"><b>WYDARZENIA</b></p>
+							<p>Vestibulum nec imperdiet orci. Nulla lacus metus, blandit sed blandit et, suscipit at ligula. Phasellus vitae dictum magna. Sed rutrum risus ut erat ultrices lacinia. Integer vel semper diam, id consequat purus. Sed nisl nunc, pellentesque eu elementum eget, accumsan eu quam. Praesent cursus metus at aliquet eleifend. Praesent aliquet pharetra dolor nec pulvinar. Donec condimentum eget felis at pretium.</p>
+					</div>
+					
+					<div class="three">
+						<div class="block">
+							<p><a href="events.html">Dowiedz się więcej...</a></p>
+						</div>	
+					</div>
+					
+					<div class="five">
+							<p class="head"><b>ZAJĘCIA</b></p>
+							<p>Donec lacus nunc, porttitor quis finibus non, eleifend quis sapien. Nullam fermentum condimentum dolor, a molestie neque. Vestibulum vel quam non libero ultricies tempor. Pellentesque tempus magna urna, id consequat enim tincidunt eget. Suspendisse imperdiet rutrum urna, nec blandit neque ornare vitae. Aliquam tincidunt id nulla at vestibulum. Ut id sapien urna. Aenean in dictum neque. Fusce et purus non tellus facilisis blandit at a erat. Curabitur congue justo et vestibulum feugiat. Integer ultrices neque purus, quis tempor metus rhoncus a. Phasellus vel dui mauris. Donec ultricies leo pulvinar accumsan efficitur. Nunc rutrum maximus tellus, ut fermentum diam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+					</div>
+					<div class="six">
+						<div class="block">
+							<p><a  href="joinus.html">Dołącz do nas</a></p>
+						</div>	
+					</div>
+				</div>
+				
+				</article>
+				<footer>
+					<div class="footer">
+					<div class="kontakt">
+						<p><a href="kontakt.html" id="kontakt"> Kontakt </a></p>
+						<p>+48 123 123 123</p>
+						<p>+48 321 321 321</p>
+					</div>
+					<div class="friends">
+						<p>Współpracujemy z:</p>
+					</div>
+					</div>
+				</footer>
+			</div>
+		</body>
+	</html>

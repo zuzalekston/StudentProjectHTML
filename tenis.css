@@ -1,0 +1,277 @@
+body {
+	background: url("balls5.png");
+	color: #000000;
+	font-family:'ZCOOL XiaoWei', serif;
+	margin: 0 !important ;
+	padding: 0;
+	font-size: 1.3em;
+}
+.wrapper {
+	width: 100%;
+	height: 100%;
+}
+header {
+	background: url("balls4.png") repeat-x;
+}
+#topBtn {
+	position: fixed;
+	bottom: 40px;
+	right: 40px;
+	font-size: 1.2em;
+	width: 50px;
+	height: 50px;
+	color: #ffffff;
+	background-color: #000000;
+	border-radius: 50%;
+	border: none;
+	cursor: pointer;
+	display: none;
+}
+
+.logo {
+	width: 100%;
+	font-size: 2em;
+	text-align: center;
+	padding: 10px 0 20px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'Bangers', cursive;
+	
+}
+.logo a {
+	text-decoration: none;
+	color: #000000;
+	
+}
+.nav {
+	width: 100%;
+	padding: 10px 0;
+	margin: 0;
+	background-color: rgba(0,0,0,0.8);
+	text-align: center;
+	border-top: 1px solid #C6FF00;
+	border-bottom: 1px solid #C6FF00;
+}
+ul li {
+	display: inline-block;
+	padding: 0 30px;
+	height: 30px;
+	border-right: 1px dashed #C6FF00;
+}
+ul li:first-child {
+	border-left: 1px dashed #C6FF00;
+}
+ul li:hover {
+	background-color:#000000;
+	
+}
+ul {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	font-size: 1.2em;
+	height: 30px;
+	line-height: 125%;
+}
+ul a {
+	color: #ffffff;
+	text-decoration: none;
+}
+ul li:hover a {
+	color: #C6FF00;
+}
+article {
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+}
+article p {
+	padding: 0 30px;
+}
+.foto{
+	width: 100%;
+	
+}
+#rakieta {
+	
+	width: 100%;
+}
+p a {
+	text-decoration: none;
+	color: #ffffff;
+}
+.block {
+	background-color: rgba(0,0,0,0.5);
+	width: 100%;
+	text-align: center;
+	padding: 20px 0;
+}
+.block a:hover {
+	font-size: 30px;
+}
+.one {
+	width: 60%;
+	height: 400px;
+	background-color: #ffffff;
+	color: #000000;
+	float: left;
+}
+.two {
+	width: 40%;
+	height: 400px;
+	background-image: url("rakieta.jpg");
+	background-size: cover ;
+	float: left;
+}
+.three {
+	width: 40%;
+	height: 400px;
+	background-image: url("tenis2.jpg");
+	background-size: cover;
+	clear: both;
+	float: left;
+	position: absolute;
+	margin-top: 400px;
+}
+.four {
+	width: 60%;
+	height: 400px;
+	background-color: #EF6C00;
+	float: right;
+	color: #000000;
+}
+.five {
+	width: 60%;
+	height: 400px;
+	background-color: #ffffff;
+	color: #000000;
+	float: left;
+}
+.six {
+	width: 40%;
+	height: 400px;
+	background-image: url("tenis3.jpg");
+	background-size: cover;
+	float: left;
+}	
+.head {
+	font-size: 2em;
+	text-align: center;
+	font-family: 'Playfair Display SC', serif;
+	color: #DD2C00;
+}
+.events {
+	color: #ffffff;
+	font-size: 2em;
+	text-align: center;
+	font-family: 'Playfair Display SC', serif;
+}
+footer {
+	width: 100%;
+	height: 100%;
+	clear: both;
+	background: url("balls5.png") repeat-x;
+	color: #ffffff;
+	
+}
+.footer {
+	width: 100%;
+	height:100%;
+	margin: 0 ;
+	background-color: rgba(0,0,0,0.7);
+}
+.kontakt {
+	width: 50%;
+	display: inline-block;
+	color: #ffffff;
+	padding: 0 30px;
+	
+}
+.kontakt a {
+	text-decoration: none;
+	color: #ffffff;
+}
+.friends{
+	vertical-align: top;
+	display: inline-block;
+}
+@media all and (max-width: 1100px) {
+	body {
+		font-size: 1.1em;
+	}
+	
+}	
+@media all and (max-width: 1010px) {
+	ul li {
+		display: block;
+		padding: 5px;
+		border-bottom: 1px dashed #C6FF00;
+		border-right: none;
+	}
+	ul li:last-child {
+		border-bottom: none;
+	}
+	ul li:first-child {
+		border-left: none;
+	}
+	ul{
+		height: 100%;
+	}
+	nav {
+		width: 100%;
+		height: 150px;
+		font-family: 'Playfair Display SC', serif;
+	
+	
+}
+@media all and (max-width: 850px){
+	.one {
+		width: 100%;
+		height: 100%;
+		background-color: #ffffff;
+		color: #303030;
+		border-bottom: 1px solid #ffffff;
+		border-top: 1px solid #ffffff;
+	}
+	.two {
+		width: 100%;
+		height: 100%;
+		background: url("rakieta.jpg");
+		background-size: cover ;
+	}	
+	.three {
+		width: 100%;
+		height: 100%;
+		background-color: #EF6C00;
+		border-bottom: 1px solid #EF6C00;
+		border-top: 1px solid #EF6C00;
+		position: static;
+		margin-top: 0;
+		
+	}
+	.four {
+		width: 100%;
+		height: 100%;
+		background-size: cover;
+		clear: both;
+	}	
+	
+	.five {
+		width: 100%;
+		height: 100%;
+		background-color: #ffffff;
+		color: #303030;
+		border-bottom: 1px solid #ffffff;
+		border-top: 1px solid #ffffff;
+	}
+	.six {
+		width: 100%;
+		height: 100%;
+		background: url("tenis3.jpg");
+		background-size: cover;
+	}	
+	.friends {
+		padding: 0 30px;
+	}
+}
